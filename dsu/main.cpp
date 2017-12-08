@@ -28,8 +28,8 @@ int DSU::find(int x) {
 /**
  * Iff x and y has the common top parent returns false.
  * Otherwize, union a and b, then returns true.
- * @param x
- * @param y
+ * @param x the index for the target
+ * @param y the index for the target
  * @return true if x and w were disjoint and now united successfully
  */
 bool DSU::union_elements(int x, int y){
